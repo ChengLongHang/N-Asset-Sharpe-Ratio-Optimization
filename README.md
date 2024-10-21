@@ -4,7 +4,7 @@ This script performs portfolio optimization using the Modern Portfolio Theory (M
 - The script optimizes the portfolio by maximizing the Sharpe Ratio (minimizing -ve Sharpe Ratio).<br />
 - Constraints are set to ensure that the sum of portfolio weights equals 1.<br />
 - Bounds are defined to restrict the weights between 0 and 1.<br />
-- VaR is calculated at a specified confidence level (default is 95%) for a given number of days (default is 1 day).<br />
+- VaR is calculated at a specified confidence level (default is 95%) for a given number of days (default is 1 day, change according to your intended holding period).<br />
 - Applied portfolio allocation strategy backtest over the period 2023-11-01 to 2024-08-01, achieving 44.6% return with volatility of 0.0916. <br />
 ![vsbench](https://github.com/user-attachments/assets/039eee07-2f1c-44c9-9e43-a76bae8073b8)
 ![weightings over time](https://github.com/user-attachments/assets/b77a38b1-5a3a-4da5-a6aa-e266165070dc)
