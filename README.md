@@ -1,4 +1,4 @@
-# n-Asset-Sharpe-Ratio-Opimization
+# n-Asset-Sharpe-Ratio-Optimization
 # Methodology
 This script performs portfolio optimization using the Modern Portfolio Theory (MPT) approach and calculates the Value at Risk (VaR) for the optimized portfolio. <br />
 - The script optimizes the portfolio by maximizing the Sharpe Ratio (minimizing -ve Sharpe Ratio).<br />
