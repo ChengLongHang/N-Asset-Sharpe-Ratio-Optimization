@@ -5,8 +5,8 @@ This script performs portfolio optimization using the Modern Portfolio Theory (M
 - Constraints are set to ensure that the sum of portfolio weights equals 1.<br />
 - Bounds are defined to restrict the weights between 0 and 1.<br />
 - VaR is calculated at a specified confidence level (default is 95%) for a given number of days (default is 1 day, change according to your intended holding period).<br />
-- Applied portfolio allocation strategy backtest over the period 2023-11-01 to 2024-08-01, achieving 44.6% return with volatility of 0.0916. <br />
-![vsbench](https://github.com/user-attachments/assets/039eee07-2f1c-44c9-9e43-a76bae8073b8)
+- Applied portfolio allocation strategy backtest over the period 2023-10-25 to 2024-10-25 with quarterly rebalancing, achieving a 49.07% return with volatility of  0.0868. <br />
+![cumreturns](https://github.com/user-attachments/assets/0ba3c90f-06b1-4dd8-93a0-d2ad89c1ab23)
 ![weightings over time](https://github.com/user-attachments/assets/b77a38b1-5a3a-4da5-a6aa-e266165070dc)
 
 # Assumptions
