@@ -17,10 +17,9 @@ This script performs portfolio optimization using the Modern Portfolio Theory (M
 # Data Collection:
 Historical adjusted close prices are fetched for the specified asset tickers using Yahoo Finance API. Log returns and covariance matrix are calculated based on the historical data.<br />
 # Visualization:
-The script visualizes the optimal portfolio weights as a pie chart and also plots the distribution of portfolio returns along with the VaR and mean return. Lastly, visualize Efficient Frontier for educational purposes.
+The script visualizes the optimal portfolio weights as a pie chart and also plots the distribution of portfolio returns along with the VaR and mean return.
 ![optweightings](https://github.com/user-attachments/assets/c8a744cd-63a7-4ec5-bb3c-d054afdf998f)
 ![VaR](https://github.com/user-attachments/assets/7b399b89-bbc5-4c8f-8f60-2f3a87c58b0d)
-![mkbullet](https://github.com/user-attachments/assets/34835f16-7148-43d1-9e80-8e6834b547f8)
 
 # Required Info
 API Key: Ensure you have a valid API key for the FRED API.<br />
