@@ -11,6 +11,7 @@ This script performs portfolio optimization using the Modern Portfolio Theory (M
 
 # Assumptions
 - The risk-free rate is obtained from the FRED API (Federal Funds Rate).
+- The expected return for the Sharpe Ratio calculation is computed as the weighted average of mean log returns, annualized by multiplying by 252.<br />
 - Optimization is performed using the scipy.optimize minimize function with the SLSQP method.<br />
 - Portfolio size is assumed to be 1 for VaR calculations.<br />
 - Expected returns are assumed to be mean historical returns.<br />
